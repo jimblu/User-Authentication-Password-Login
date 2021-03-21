@@ -6,8 +6,12 @@ Command line application that returns information (scraped on wikipedia) about t
 
 ### Built With
 
-* [Node.js](https://nodejs.org/en/)/[cheerio.js](https://cheerio.js.org/)
-
+* [Node.js](https://nodejs.org/en/)
+* [Express](https://expressjs.com/)
+* [EJS](https://ejs.co/)
+* [Passport](http://www.passportjs.org/)
+* [bcrypt](https://www.bcrypt.fr/questions)
+* 
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -22,7 +26,7 @@ Command line application that returns information (scraped on wikipedia) about t
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jimblu/WikiPopulation_CLI-Web-Scraper.git
+   git clone https://github.com/jimblu/User-Authentication-Password-Login.git
    ```
 2. Install NPM packages
    ```sh
@@ -30,5 +34,5 @@ Command line application that returns information (scraped on wikipedia) about t
    ```
 3. Use it
    ```sh
-   npm run popWiki
+   npm run devStart
    ```
