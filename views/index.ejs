@@ -1,1 +1,12 @@
-<h1>Hellooooo <%= name %></h1>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css"> 
+<body>
+<main>
+<h1>Hi <%= name %></h1>
+<form action="/logout?_method=DELETE" method="POST">
+    <div class="circle"></div>
+  <button type="submit">Log out</button>
+</form>
+</main>
+</body>
