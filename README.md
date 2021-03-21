@@ -2,7 +2,7 @@
 
 [<img align="center" alt="authentication" width="550px" src="https://user-images.githubusercontent.com/71411560/111923427-77d7da00-8a9f-11eb-83aa-861d7d3fa16e.png" />]()
 
-Command line application that returns information (scraped on wikipedia) about the size of the population of the selected country.
+A simple identification system with registration / connection by email and password (Passport for the identification strategy), Express to deliver static web pages, a database with MongoDb (for the moment an array acts as a database). Also, the use of bcrypt for encryption.
 
 ### Built With
 
@@ -11,7 +11,7 @@ Command line application that returns information (scraped on wikipedia) about t
 * [EJS](https://ejs.co/)
 * [Passport](http://www.passportjs.org/)
 * [bcrypt](https://www.bcrypt.fr/questions)
-* 
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
