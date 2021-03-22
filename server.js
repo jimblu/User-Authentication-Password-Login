@@ -9,7 +9,9 @@ if (process.env.NODE_ENV !== 'production') {
   const flash = require('express-flash')
   const session = require('express-session')
   const methodOverride = require('method-override')
-  
+
+  const PORT = process.env.NODE_ENV || 5000;
+
   const initializePassport = require('./passport-config')
   initializePassport(
     passport,
@@ -85,4 +87,4 @@ if (process.env.NODE_ENV !== 'production') {
     next()
   }
   
-  app.listen(5000)
+  app.listen(PORT)
